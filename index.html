@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Flask Chatterbot Example</h1>
+    <div>
+        <div id="chatbox">
+            <p class="botText"><span>Hi! I'm Chatterbot.</span></p>
+    </div>
+        <div id="userInput">
+            <input id="textInput" type="text" name="msg" placeholder="Message">
+            <input id="buttonInput" type="submit" value="Send">
+        </div>
+
+        <script>
+            function getBotResponse() {
+                var rawText = $(#textInput).val();
+                userHtml = <'p class="userText"><span>' + rawText + '</span></p>';
+
+
+            }
+        </script>
+    </div>
+</body>
+</html>
